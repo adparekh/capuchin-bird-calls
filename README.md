@@ -32,6 +32,20 @@ This well-structured dataset is designed to facilitate the training and evaluati
 
 ## Conclusion
 
+**Training Set Accuracy**:
+
+    Loss: 8.338e-4
+    Recall: 1.00
+    Precision: 1.00
+    Accuracy: 100%
+    
+**Validation Set Accuracy**:
+
+    Loss: 4.269e-4
+    Recall: 1.00
+    Precision: 1.00
+    Accuracy: 100%
+
 The achieved recall and precision values of 1.0 for both the training and validation sets underscore the remarkable effectiveness of the developed classification model in accurately identifying Capuchin bird calls within short audio clips. These exceptional performance metrics on the training and validation data suggest that the model has successfully learned discriminative features, generalizing well to previously unseen examples during validation.
 
 Analyzing the exported results in the CSV file will shed light on the model's ability to generalize to larger, more complex datasets. Potential challenges may include handling background noise, variations in bird call patterns, and other acoustic complexities inherent in forest recordings.
